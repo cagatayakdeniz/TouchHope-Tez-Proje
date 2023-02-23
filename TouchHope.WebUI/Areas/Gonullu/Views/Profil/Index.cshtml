@@ -1,0 +1,159 @@
+﻿@model KullaniciUpdateModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Gonullu/Views/Shared/_GonulluPanelLayout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/AdminLTE-3.0.4/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/AdminLTE-3.0.4/dist/css/adminlte.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+
+                <!-- Profile Image -->
+                <div class="card card-primary card-outline">
+                    <div class="card-body box-profile">
+
+                        <h3 class="profile-username text-center">@Model.KullaniciAd</h3>
+
+                        <p class="text-muted text-center">Gönüllü</p>
+
+                        <ul class="list-group list-group-unbordered mb-3">
+                            <li class="list-group-item">
+                                <b>Aktif Hayvan Sayısı</b> <a class="float-right">@ViewBag.AktifHastaHayvanSayisi.Result</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>İyileştirdiğim Hayvan Sayısı</b> <a class="float-right">@ViewBag.IyilestirdigimHastaHayvanSayisi.Result</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>Yazdığım Rapor Sayısı</b> <a class="float-right">@ViewBag.YazdigimToplamRaporSayisi.Result</a>
+                            </li>
+                        </ul>
+
+                        <a asp-action="Index" asp-controller="Bildirim" class="btn btn-primary btn-block"><b>Bildirimlere Git</b></a>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+                <!-- About Me Box -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Bilgilerim</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <strong><i class="fas fa-user"></i>&nbsp; Ad - Soyad</strong>
+
+                        <p class="text-muted">
+                            @Model.Ad @Model.Soyad
+                        </p>
+
+                        <hr>
+
+                        <strong><i class="fas fa-envelope-square"></i>&nbsp; E-mail</strong>
+
+                        <p class="text-muted">@Model.Email</p>
+
+                        <hr>
+
+                        <strong><i class="fas fa-phone-square-alt"></i>&nbsp; Telefon No</strong>
+
+                        <p class="text-muted">
+                            @Model.TelefonNo
+                        </p>
+
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header p-2">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item"><a class="active nav-link" href="#settings" data-toggle="tab">Profili Güncelle</a></li>
+                        </ul>
+                    </div><!-- /.card-header -->
+                    <div class="card-body">
+                        <div class="tab-content">
+                            <!-- /.tab-pane -->
+
+                            <div class=" active tab-pane" id="settings">
+                                <form asp-action="Guncelle" asp-controller="Profil" method="post">
+                                    <div class="form-group row">
+                                        <label for="inputName" class="col-sm-2 col-form-label">Kullanıcı Adı</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" asp-for="@Model.KullaniciAd" readonly class="form-control" id="inputName">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Ad</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" asp-for="@Model.Ad" class="form-control" id="inputEmail" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputName2" class="col-sm-2 col-form-label">Soyad</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" asp-for="@Model.Soyad" class="form-control" id="inputName2" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputExperience" class="col-sm-2 col-form-label">E-Mail</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" asp-for="@Model.Email" class="form-control" id="inputEmail" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputSkills" class="col-sm-2 col-form-label">Telefon Numarası</label>
+                                        <div class="col-sm-10">
+                                            <input type="tel" asp-for="@Model.TelefonNo" class="form-control" id="inputEmail" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputSkills" class="col-sm-2 col-form-label">İl</label>
+                                        <div class="col-sm-10">
+                                            <select asp-for="@Model.IlId" class="form-control" asp-items="ViewBag.Iller">
+                                                <option hidden value="-1">Seçiniz</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputSkills" class="col-sm-2 col-form-label">Cinsiyet</label>
+                                        <div class="col-sm-10">
+                                            <select asp-for="@Model.CinsiyetId" class="form-control" asp-items="ViewBag.Cinsiyetler">
+                                                <option hidden value="-1">Seçiniz</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="offset-sm-2 col-sm-10">
+                                            <button type="submit" class="btn btn-danger">Kaydet</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.tab-pane -->
+                        </div>
+                        <!-- /.tab-content -->
+                    </div><!-- /.card-body -->
+                </div>
+                <!-- /.nav-tabs-custom -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+
+<script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
+<script src="~/AdminLTE-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/AdminLTE-3.0.4/dist/js/adminlte.min.js"></script>
+<script src="~/AdminLTE-3.0.4/dist/js/demo.js"></script>

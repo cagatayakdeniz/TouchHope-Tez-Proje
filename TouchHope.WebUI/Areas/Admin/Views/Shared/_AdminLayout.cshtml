@@ -1,0 +1,189 @@
+﻿@{
+    string active = string.Empty;
+    if (TempData["active"] != null)
+    {
+        active = TempData["active"].ToString();
+    }
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- index.html  21 Nov 2019 03:44:50 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <link rel="shortcut icon" type="image/x-icon" href="~/site/assets/img/logo.jpg">
+    <title>Admin | Touch Hope</title>
+    <!-- General CSS Files -->
+    <link rel="stylesheet" href="~/AdminYonetim/assets/css/app.min.css">
+    <link rel="stylesheet" href="~/AdminYonetim/assets/bundles/datatables/datatables.min.css">
+    <link rel="stylesheet" href="~/AdminYonetim/assets/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/AdminYonetim/assets/css/style.css">
+    <link rel="stylesheet" href="~/AdminYonetim/assets/css/components.css">
+    <!-- Custom style CSS -->
+    <link rel="stylesheet" href="~/AdminYonetim/assets/css/custom.css">
+    <link rel='shortcut icon' type='image/x-icon' href='~/AdminYonetim/assets/img/logo.jpg' />
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div id="app">
+        <div class="main-wrapper main-wrapper-1">
+            <div class="navbar-bg"></div>
+            <nav class="navbar navbar-expand-lg main-navbar sticky">
+                <div class="form-inline mr-auto">
+                    <ul class="navbar-nav mr-3">
+                        <li>
+                            <a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                                <i data-feather="maximize"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <h4 style="margin-top:18px;color:black;margin-right:6px">Touch Hope</h4>
+                    <!-- Nav Item - User Information -->
+                    <li class="nav-item dropdown no-arrow">
+                        <!-- Dropdown - User Information -->
+                        <img src="~/site/assets/img/logoRemoveBG.jpg" width="50" height="60" />
+                    </li>
+                </div>
+            </nav>
+            <div class="main-sidebar sidebar-style-2" style="background-image:url('');background-color:aliceblue!important">
+                <aside id="sidebar-wrapper">
+                    <div class="sidebar-brand">
+                        <a asp-controller="AnaSayfa" asp-action="Index">
+                            <img alt="image" src="~/site/assets/img/logoRemoveBG.jpg" class="header-logo" /> <span class="logo-name">Kurucu</span>
+                        </a>
+                    </div>
+                    <ul class="sidebar-menu">
+                        <li class="menu-header">Menü</li>
+                        <li class="dropdown @(active=="anasayfa"?"active":"")">
+                            <a asp-controller="AnaSayfa" asp-action="Index" class="nav-link"><i class="fas fa-desktop"></i><span>Ana Sayfa</span></a>
+                        </li>
+                        <li class="dropdown @(active=="ihbar"?"active":"")">
+                            <a href="#" class="menu-toggle nav-link has-dropdown">
+                                <i class="fas fa-exclamation-circle"></i><span>İhbar İşlemleri</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link font-14" asp-controller="Ihbar" asp-action="Index">Gelen İhbarlar</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown @(active=="hayvan"?"active":"")">
+                            <a href="#" class="menu-toggle nav-link has-dropdown"><i class="fas fa-dog"></i><span>Hayvan İşlemleri</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" asp-controller="Hayvan" asp-action="KaybolanHayvan">Kaybolan Hayvan Listesi</a></li>
+                                <li><a class="nav-link" asp-controller="Hayvan" asp-action="SahiplendirilecekHayvan">Sahiplendirilecek Hayvanlar</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown @(active=="hastahayvan"?"active":"")">
+                            <a href="#" class="menu-toggle nav-link has-dropdown"><i class="fas fa-heartbeat"></i><span>Hasta Hayvan İşlemleri</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" asp-controller="HastaHayvan" asp-action="Index">Hasta Hayvan Listesi</a></li>
+                                <li><a class="nav-link" asp-controller="HastaHayvan" asp-action="IyilesenHayvan">İyileşen Hayvan Listesi</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown @(active=="hayvangonullu"?"active":"")">
+                            <a asp-controller="HayvanGonullu" asp-action="Index" class="nav-link"><i class="fas fa-tasks"></i><span>Hayvan - Gönüllü Süreci</span></a>
+                        </li>
+                        <li class="dropdown @(active=="tur"?"active":"")">
+                            <a href="#" class="menu-toggle nav-link has-dropdown"><i class="fas fa-feather-alt"></i><span>Tür İşlemleri</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link font-14" asp-controller="Tur" asp-action="Index">Tür Listesi</a></li>
+                                <li><a class="nav-link font-14" asp-controller="Tur" asp-action="EkleTur">Tür Ekle</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown @(active=="gonullu"?"active":"")">
+                            <a href="#" class="menu-toggle nav-link has-dropdown"><i class="fas fa-users"></i><span>Gönüllü İşlemleri</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" asp-controller="Gonullu" asp-action="Index">Gönüllü Listesi</a></li>
+                                <li><a class="nav-link" asp-controller="Gonullu" asp-action="GonulluyeMesaj">Gönüllüye Mesaj At</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown @(active=="bildirim"?"active":"")">
+                            <a asp-controller="Bildirim" asp-action="Index" class="nav-link"><i class="fas fa-bell"></i><span>Bildirimler</span></a>
+                        </li>
+                        <li class="dropdown">
+                            <a asp-controller="AnaSayfa" asp-action="CikisYap" class="nav-link"><i class="fas fa-sign-out-alt"></i><span>Çıkış Yap</span></a>
+                        </li>
+                        <br />
+                        <img src="~/site/assets/img/logoRemoveBG.jpg" style="height:300px;width:250px;padding-left:20px;padding-right:20px" />
+                    </ul>
+                </aside>
+            </div>
+            <!-- Main Content -->
+            <div class="main-content">
+                @RenderBody()
+                <div class="settingSidebar">
+                    <a href="javascript:void(0)" class="settingPanelToggle">
+                        <i class="fa fa-spin fa-cog"></i>
+                    </a>
+                    <div class="settingSidebar-body ps-container ps-theme-default" tabindex="2" style="overflow: hidden; outline: none;">
+                        <div class=" fade show active">
+                            <div class="setting-panel-header">
+                                Panel Görünüm Ayarları
+                            </div>
+                            <div class="p-15 border-bottom">
+                                <h6 class="font-medium m-b-10">Panel Görünüş</h6>
+                                <div class="selectgroup layout-color w-50">
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="value" value="1" class="selectgroup-input-radio select-layout" checked="">
+                                        <span class="selectgroup-button">Açık</span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="value" value="2" class="selectgroup-input-radio select-layout">
+                                        <span class="selectgroup-button">Koyu</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="p-15 border-bottom">
+                                <h6 class="font-medium m-b-10">Menü Görünüş</h6>
+                                <div class="selectgroup selectgroup-pills sidebar-color">
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="icon-input" value="1" class="selectgroup-input select-sidebar">
+                                        <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip" data-original-title="Açık"><i class="fas fa-sun"></i></span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="icon-input" value="2" class="selectgroup-input select-sidebar" checked="">
+                                        <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip" data-original-title="Koyu"><i class="fas fa-moon"></i></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
+                                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                                    <i class="fas fa-undo"></i> Varsayılana Dön
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ascrail2001" class="nicescroll-rails nicescroll-rails-vr" style="width: 8px; z-index: 999; cursor: default; position: absolute; top: 0px; left: 272px; height: 969px; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 6px; height: 0px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2001-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 8px; z-index: 999; top: 961px; left: 0px; position: absolute; cursor: default; display: none;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 6px; width: 0px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- General JS Scripts -->
+    @RenderSection("JavaScript", false)
+    <!-- General JS Scripts -->
+    <script src="~/AdminYonetim/assets/js/app.min.js"></script>
+    <!-- JS Libraies -->
+    <script src="~/AdminYonetim/assets/bundles/datatables/datatables.min.js"></script>
+    <script src="~/AdminYonetim/assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/AdminYonetim/assets/bundles/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Page Specific JS File -->
+    <script src="~/AdminYonetim/assets/js/page/datatables.js"></script>
+    <!-- Template JS File -->
+    <script src="~/AdminYonetim/assets/js/scripts.js"></script>
+    <!-- Custom JS File -->
+    <script src="~/AdminYonetim/assets/js/custom.js"></script>
+</body>
+
+
+<!-- index.html  21 Nov 2019 03:47:04 GMT -->
+</html>

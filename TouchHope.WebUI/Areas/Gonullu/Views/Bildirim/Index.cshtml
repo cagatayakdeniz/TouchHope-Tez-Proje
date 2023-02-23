@@ -1,0 +1,56 @@
+﻿@model List<BildirimListModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Gonullu/Views/Shared/_GonulluPanelLayout.cshtml";
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="text-center mt-2 col-12">
+            <h2 class="font-37" style="color:red">Okunmamış Bildirimler</h2>
+        </div>
+        <div class="row" style="padding-left:200px;padding-right:200px">
+            @await Html.PartialAsync("_BildirimListePartial", Model)
+        </div>
+    </div>
+</section>
+
+@*<script src="~/GonulluUI/green-horizotal/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/GonulluUI/green-horizotal/js/dialog/sweetalert2.min.js"></script>
+    <script src="~/GonulluUI/green-horizotal/js/dialog/dialog-active.js"></script>*@
+
+<script src="~/lib/jquery-1.12.4.min.js"></script>
+<script src="~/lib/sweetalert.min.js"></script>
+<script src="~/lib/sweetalert.js"></script>
+@*// #Çağatay Akdeniz //*@
+<script>
+    function sil(id) {
+        if (id != 0 && id != "") {
+            swal({
+                title: 'Emin Misiniz?',
+                text: 'Okundu olarak işaretlenecek emin misiniz ?',
+                icon: 'warning',
+                buttons: true,
+                dangermode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+
+                        $.ajax({
+                            url: "/Gonullu/Bildirim/Okundu/",
+                            type: "POST",
+                            data: { id: id },
+                            success: function (result) {
+                                location.reload();
+                            }
+                        });
+                    }
+                    else {
+                        location.reload();
+                    }
+                });
+        }
+    }
+
+</script>

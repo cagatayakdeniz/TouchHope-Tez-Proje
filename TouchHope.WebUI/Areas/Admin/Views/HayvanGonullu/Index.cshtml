@@ -1,0 +1,86 @@
+﻿@model List<HastaHayvanListModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+@if (TempData["gorevlendir"] != null)
+{
+    <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">
+        <div class="swal-modal" role="dialog" aria-modal="true">
+            <div class="swal-icon swal-icon--success">
+                <span class="swal-icon--success__line swal-icon--success__line--long"></span>
+                <span class="swal-icon--success__line swal-icon--success__line--tip"></span>
+
+                <div class="swal-icon--success__ring"></div>
+                <div class="swal-icon--success__hide-corners"></div>
+            </div><div class="swal-title" style="">Başarılı!</div><div class="swal-text" style="">Görev Atama İşlemi Başarılı.</div><div class="swal-footer">
+                <div class="swal-button-container">
+
+                    <a class="btn btn-info" asp-action="Index" asp-controller="HayvanGonullu">Tamam</a>
+
+                    <div class="swal-button__loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="text-center mt-2">
+                        <h4 class="font-27" style="color:red">Hasta Hayvan Takibi</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <div id="table-1_wrapper" class="container-fluid dt-bootstrap4 no-footer">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-bordered table-striped dataTable no-footer" id="table-1" role="grid" aria-describedby="table-1_info">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="
+                              #
+                            : activate to sort column ascending" style="width: 61.6562px;">
+                                                        #
+                                                    </th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">İl</th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Resim</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="E-mail: activate to sort column ascending">Oluşturulma Tarihi</th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Açıklama</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Il: activate to sort column ascending">Açık Adres</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="TelefonNo: activate to sort column ascending">Aciliyet</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="KullaniciAd: activate to sort column ascending">Tür</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Il: activate to sort column ascending">Görevli Gönüllü</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Il: activate to sort column ascending">Rapor Sayısı</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Il: activate to sort column ascending">İşlem</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="mb-3">
+                                                @await Html.PartialAsync("_HayvanGonulluListPartial", Model)
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/lib/sweetalert.min.js"></script>
+<script src="~/lib/sweetalert.js"></script>
+

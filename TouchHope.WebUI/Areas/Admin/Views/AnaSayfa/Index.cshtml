@@ -1,0 +1,276 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="section">
+    <div class="row ">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">İhbar Sayısı</h4>
+                                    <br />
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.IhbarSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Hasta Hayvan Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.HastaHayvanSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Kaybolan Hayvan Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.KaybolanHayvanSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Sahiplendirilecek Hayvan Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.SahiplendirilecekHayvanSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">İyileşen Hayvan Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.IyilesenHayvanSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-18">Aktif İlgilenilen Hasta Hayvan Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.AktifHayvanSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-18">Ilgilenilmeyen Hasta Hayvan Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.PasifHayvanSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Okunmamış Bildirim Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.BildirimSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Toplam Yazılan Rapor Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.ToplamRaporSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Gönüllü Sayısı</h4>
+                                    <br />
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.GonulluSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Gönüllü Erkek Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.GonulluErkekSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="card">
+                <div class="card-statistic-4">
+                    <div class="align-items-center justify-content-between">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
+                                <div class="card-content">
+                                    <h4 class="font-20">Gönüllü Kadın Sayısı</h4>
+                                    <br />
+                                    <h1 class="mb-3 font-26 text-center" style="color:red">@ViewBag.GonulluKadinSayisi.Result</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
+                                <div class="banner-img">
+                                    <img src="~/site/assets/img/logo.jpg" width="140" height="145" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

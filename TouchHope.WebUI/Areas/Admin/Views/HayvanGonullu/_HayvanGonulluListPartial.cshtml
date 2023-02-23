@@ -1,0 +1,79 @@
+﻿@model List<HastaHayvanListModel>
+
+@{ 
+    int i = 0;
+}
+   
+@foreach (var item in Model)
+{
+    i++;
+    <tr role="row" class="odd">
+        <td class="font-13">@i</td>
+        <td class="font-13">@item.Il.Ad</td>
+        <td class="font-13">
+            <getirHastaHayvanResim id="@item.Id"></getirHastaHayvanResim>
+        </td>
+        <td class="font-14">@item.OlusturulmaTarih.ToLongDateString()</td>
+        <td class="font-14">@item.Aciklama</td>
+        <td class="font-14">@item.AcikAdres</td>
+        <td>
+            @if (item.Aciliyet.Tanim == "Çok Hafif" || item.Aciliyet.Tanim == "Hafif")
+            {
+                <span class="badge badge-warning font-15">@item.Aciliyet.Tanim</span>
+            }
+            else if (item.Aciliyet.Tanim == "Normal")
+            {
+                <span class="badge badge-warning font-15">@item.Aciliyet.Tanim</span>
+            }
+            else
+            {
+                <span class="badge badge-danger font-15">@item.Aciliyet.Tanim</span>
+            }
+        </td>
+        <td class="font-14">
+            @if (item.Tur == null)
+            {
+                <h6>Tür belirtilmemiş.</h6>
+            }
+            else
+            {
+                <h6>@item.Tur.Ad</h6>
+            }
+        </td>
+        <td class="font-14">
+            @if (item.Kullanici == null)
+            {
+                <span class="badge badge-danger">Görevli Gönüllü yok</span>
+            }
+            else
+            {
+                <span class="badge badge-success">@item.Kullanici.KullaniciAd Görevli</span>
+            }
+        </td>
+        <td class="font-14">
+            @if (item.Raporlar == null)
+            {
+                <h6>Tür belirtilmemiş.</h6>
+            }
+            else
+            {
+                <h6>@item.Raporlar.Count</h6>
+            }
+        </td>
+        <td class="font-14">
+            @if (item.Kullanici == null)
+            {
+                <a asp-action="GonulluGorevlendir" asp-route-id="@item.Id" class="btn btn-icon icon-left btn-warning font-13">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Gönüllü Görevlendir
+                </a>
+            }
+            else
+            {
+                <a asp-action="GetirRaporlar" asp-route-id="@item.Id" class="btn btn-icon icon-left btn-info text-center font-15">
+                    <i class="fas fa-info-circle"></i>Raporlar
+                </a>
+            }
+        </td>
+    </tr>
+}

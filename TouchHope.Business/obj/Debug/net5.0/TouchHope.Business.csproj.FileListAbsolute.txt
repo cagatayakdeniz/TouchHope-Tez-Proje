@@ -1,0 +1,72 @@
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.deps.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csprojAssemblyReference.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfo.cs
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CopyComplete
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CopyComplete
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.deps.json
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfo.cs
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CopyComplete
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Core.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Business\bin\Debug\net5.0\TouchHope.Core.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Core.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Core.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.csproj.CopyComplete
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\ref\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Business\obj\Debug\net5.0\TouchHope.Business.pdb

@@ -1,0 +1,72 @@
+﻿@model BildirimAddModel
+@{
+    ViewData["Title"] = "GonulluyeMesaj";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["message"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="text-center">
+                        <h4 class="font-27 mt-2" style="color:red">Mesaj Yolla</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-controller="Gonullu" asp-action="GonulluyeMesaj" method="post">
+                            <div class="form-group">
+                                <label class="font-18">Gönüllü Seçiniz </label>
+                                <span asp-validation-for="@Model.KullaniciId" class="text-danger font-16"></span>
+                                <select asp-for="@Model.KullaniciId" class="form-control" asp-items="ViewBag.Gonulluler">
+                                    <option hidden value="-1">Seçiniz</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="font-18">Konu </label>
+                                <span asp-validation-for="@Model.Baslik" class="text-danger"></span>
+                                <input type="text" asp-for="@Model.Baslik" class="form-control font-16">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-18">Mesaj </label>
+                                <span asp-validation-for="@Model.Mesaj" class="text-danger"></span>
+                                <textarea asp-for="@Model.Mesaj" class="form-control font-16"></textarea>
+                            </div>
+                            <div class="text-danger text-align-left mb-2">
+                                <div asp-validation-summary="ModelOnly" class="mt-3 text-danger font-16"></div>
+                            </div>
+                            <div class="text-left">
+                                <button class="btn btn-lg btn-primary mr-1" type="submit">Yolla</button>
+                            </div>
+                        </form>
+                        @section JavaScript
+                        {
+                            <script src="~/lib/jqueryValidate/jquery.validate.min.js"></script>
+                            <script src="~/lib/jqueryUnob/jquery.validate.unobtrusive.min.js"></script>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap core JavaScript-->
+<script src="~/Gonullu/vendor/jquery/jquery.min.js"></script>
+<script src="~/Gonullu/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="~/Gonullu/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="~/Gonullu/js/sb-admin-2.min.js"></script>
+

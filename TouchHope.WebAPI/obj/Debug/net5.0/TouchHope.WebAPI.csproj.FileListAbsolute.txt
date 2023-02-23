@@ -1,0 +1,337 @@
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.exe
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.deps.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.dev.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csprojAssemblyReference.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfo.cs
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.xml
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\scopedcss\bundle\TouchHope.WebAPI.styles.css
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CopyComplete
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.genruntimeconfig.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\EPPlus.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FastMember.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.exe
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.dev.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\EPPlus.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FastMember.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.xml
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\scopedcss\bundle\TouchHope.WebAPI.styles.css
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CopyComplete
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.genruntimeconfig.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.exe
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.deps.json
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.json
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.dev.json
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Autofac.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\EPPlus.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FastMember.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfo.cs
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.xml
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\scopedcss\bundle\TouchHope.WebAPI.styles.css
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CopyComplete
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.genruntimeconfig.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Core.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Core.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.exe
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.runtimeconfig.dev.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Autofac.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\EPPlus.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\FastMember.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Core.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Business.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Core.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\staticwebassets\TouchHope.WebAPI.StaticWebAssets.xml
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\scopedcss\bundle\TouchHope.WebAPI.styles.css
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.csproj.CopyComplete
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\ref\TouchHope.WebAPI.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\obj\Debug\net5.0\TouchHope.WebAPI.genruntimeconfig.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\log4net.config
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\log4net.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\MicroKnights.Log4NetAdoNetAppender.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll

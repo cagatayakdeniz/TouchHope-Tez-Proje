@@ -1,0 +1,105 @@
+﻿@model HayvanRaporDetayModel
+@{
+    ViewData["Title"] = "DetayHastaHayvan";
+    Layout = "~/Areas/Gonullu/Views/Shared/_GonulluPanelLayout.cshtml";
+    int i = 0;
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row mt-sm-4">
+            <div class="col-12 col-md-12 col-lg-4" style="padding-left:100px;box-shadow:5px 5px 5px 5px gray;background-color:beige">
+                @await Html.PartialAsync("_HastaHayvanBilgiPartialView", Model.HastaHayvan)
+            </div>
+            <div class="col-12 col-md-12 col-lg-8" style="padding-left:60px">
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4 style="color:green;font-size:22px">Hayvan Hakkında Yazdığım Raporlar</h4>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="card-body">
+                        @if (Model.Raporlar.Count > 0)
+                        {
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col" class="font-18" style="color:blue">BASLİK</th>
+                                        <th scope="col" class="font-18" style="color:blue">DETAY</th>
+                                        <th scope="col" class="font-18" style="color:blue">İŞLEM</th>
+                                        <th><a class="btn btn-info" asp-action="EkleRapor" asp-route-hastaHayvanId="@Model.HastaHayvan.Id">Rapor Yaz</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.Raporlar)
+                                    {
+                                        i++;
+                                        <tr role="row" class="odd">
+                                            <td style="font-size:15px">@i</td>
+                                            <td style="font-size:15px">@item.Baslik</td>
+                                            <td style="font-size:15px">@item.Detay</td>
+                                            <td>
+                                                <a class="btn btn-info" asp-action="GuncelleRapor" asp-route-id="@item.Id">Güncelle</a>
+                                                <a class="btn btn-danger waves-effect float-right" onclick="sil(@item.Id)">Sil</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            <div class="row" style="padding-top:55px">
+                                <div class="col-lg-10">
+                                    <h3 style="color:red;padding-top:10px">Şu ana kadar hiç rapor yazmamışsınız... İlerlemelerinizden bahsedin.</h3>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a class="btn btn-lg btn-info" asp-action="EkleRapor" asp-route-hastaHayvanId="@Model.HastaHayvan.Id">Rapor Yaz</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/lib/jquery-1.12.4.min.js"></script>
+<script src="~/lib/sweetalert.min.js"></script>
+<script src="~/lib/sweetalert.js"></script>
+
+<script>
+    function sil(id) {
+        if (id != 0 && id != "") {
+            swal({
+                title: 'Emin Misiniz?',
+                text: 'Raporu silmek istediğinizden emin misiniz ?',
+                icon: 'warning',
+                buttons: true,
+                dangermode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+
+                        $.ajax({
+                            url: "/Gonullu/HastaHayvan/SilRapor/",
+                            type: "POST",
+                            data: { id: id },
+                            success: function (result) {
+                                location.reload();
+                            }
+                        });
+                    }
+                    else {
+                        location.reload();
+                    }
+                });
+        }
+    }
+
+</script>
+

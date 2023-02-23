@@ -1,0 +1,144 @@
+﻿@model List<KaybolanHayvanListModel>
+@{
+    Layout = null;
+}
+@*// #Çağatay Akdeniz //*@
+<!DOCTYPE html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/site/assets/img/logo.jpg">
+    <title>Touch Hope</title>
+    <meta charset="UTF-8">
+
+    <link href="~/AnaSayfa/lib/bootstrap/bootstrape1a0.css" rel="stylesheet" media="all" />
+    <link href="~/AnaSayfa/lib/css/maine1a0.css" rel="stylesheet" media="all" />
+    <link href="~/AnaSayfa/lib/css/font-awesome.mine1a0.css" rel="stylesheet" media="all" />
+    <link href="~/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet" />
+
+
+    <script src="~/AnaSayfa/lib/jquery-2.2.0.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/swiper.jquery.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/bootstrap.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.fancybox.packe1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.lazyload.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.plugin.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.datepick.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.datepick-tre1a0.js"></script>
+    <script src="~/AnaSayfa/lib/genele1a0.js"></script>
+
+</head>
+
+<body id="box-top">
+
+    <div class="navbar navbar-inverse navbar-xs visible-xs">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" asp-action="Index" style="background-image:url('')">
+                    <img src="~/AnaSayfa/logo.jpg" width="50" height="30" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li><a asp-action="Index" asp-controller="Home" style="padding-right:2em;padding-left:2em"><i class="fas fa-home"></i>&nbsp;ANA SAYFA</a></li>
+                    <li><a asp-action="SignIn" asp-controller="Auth" style="padding-left:15em;padding-right:15em"><i class="fas fa-sign-in-alt"></i>&nbsp;GİRİŞ YAP</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <nav class="container-fluid  primary-menu hidden-xs">
+        <div class="white-line"></div>
+        <div class="white-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="primary-brand">
+                    <a asp-action="Index" class="menu-brand" style="background-image:url('');"><img src="~/AnaSayfa/logo.jpg" width="110" height="70" /></a>
+                </div>
+                <div class="primary-menu-link">
+
+                    <a asp-action="Index" asp-controller="Home"><i class="fas fa-home"></i>&nbsp;ANA SAYFA</a>
+                    <a asp-action="SignIn" asp-controller="Auth" class="navbar-right"><i class="fas fa-sign-in-alt"></i>&nbsp;GİRİŞ YAP</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="lost-cats">
+        <div class="container-fluid">
+            <div class="row" style="background-color:cadetblue">
+                <div class="cat-list-title">
+                    <h2 style="color:chartreuse">
+                        <strong>KAYIP LİSTESİ</strong>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid lost-cats-items">
+            <div class="row">
+                <div class="container">
+                    <form asp-action="KayipListesi" asp-controller="Home">
+                        <div class="row">
+                            <div class="col-sm-10" style="padding-left:750px;padding-top:10px">
+                                <select class="form-control title-dropbox-country" name="sehir" asp-items="@ViewBag.Iller">
+                                    <option value="-1">Seçiniz</option>
+                                </select>
+
+                            </div>
+                            <div class="col-sm-2" style="padding-top:10px;padding-right:50px">
+                                <button class="form-control title-dropbox-country btn-primary" type="submit">Filtrele</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="lost-cats-list">
+                                <ul>
+                                    @if (Model.Count > 0)
+                                    {
+                                        @foreach (var item in Model)
+                                        {
+                                            <li class="" style="height:450px;width:210px;color:white">
+                                                <div class="lost-cats-list-image">
+                                                    <a>
+                                                        <AnaSayfaKayiplarResimList id="@item.Id"></AnaSayfaKayiplarResimList>
+                                                    </a>
+                                                </div>
+                                                <a class="lost-cats-list-text">
+                                                    <h4 style="font-size:16px;margin:10px">@item.Aciklama</h4>
+                                                    <span class="lost-cats-list-type" style="margin:3px">@item.TelefonNo</span>
+                                                    <span class="lost-cats-list-country" style="margin:3px">@item.Il.Ad</span>
+                                                    <span class="lost-cats-list-type" style="margin:3px">@item.Tur.Ad</span>
+                                                    <span><strong style="margin:3px">@item.OlusturulmaTarih.ToShortDateString()</strong></span>
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <h5 style="padding:20px;font-size:40px;color:red"><b>@ViewBag.Sehir</b> ilinde kayıtlı hayvan bulunmamaktadır.</h5>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid footerbar" style="background-color:cadetblue">
+
+    </div>
+    <span class="gotop" id="gotop"><i class="fa fa-angle-up fa-3x"></i></span>
+
+</body>
+</html>
+

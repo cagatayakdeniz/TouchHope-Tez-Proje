@@ -1,0 +1,35 @@
+﻿@model List<KaybolanHayvanListModel>
+@{
+    int i = 0;
+}
+
+<ul>
+
+    @foreach (var item in Model)
+    {
+        @if (i < 15)
+        {
+            i++;
+            <li class="" style="height:450px;width:210px;color:white">
+                <div class="lost-cats-list-image">
+                    <a>
+                        <AnaSayfaKayiplarResimList id="@item.Id"></AnaSayfaKayiplarResimList>
+                        @*<img src="~/img/@item.FotografUrl" width="198" height="224">*@
+                    </a>
+                </div>
+                <a class="lost-cats-list-text">
+                    <h4 style="font-size:16px;margin:10px">@item.Aciklama</h4>
+                    <span class="lost-cats-list-type"style="margin:5px">@item.TelefonNo</span>
+                    <span class="lost-cats-list-country" style="margin:5px">@item.Il.Ad</span>
+                    <span class="lost-cats-list-type" style="margin:5px">@item.Tur.Ad</span>
+                    <span><strong style="margin:3px">@item.OlusturulmaTarih.ToShortDateString()</strong></span>
+                </a>
+            </li>
+        }
+        else
+        {
+            break;
+        }
+    }
+    
+</ul>

@@ -1,0 +1,72 @@
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfo.cs
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.deps.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.dev.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CopyComplete
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.genruntimeconfig.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.dev.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CopyComplete
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.genruntimeconfig.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.deps.json
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.json
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.dev.json
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfo.cs
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CopyComplete
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.genruntimeconfig.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.runtimeconfig.dev.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.csproj.CopyComplete
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\ref\TouchHope.DataAccess.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.DataAccess\obj\Debug\net5.0\TouchHope.DataAccess.genruntimeconfig.cache

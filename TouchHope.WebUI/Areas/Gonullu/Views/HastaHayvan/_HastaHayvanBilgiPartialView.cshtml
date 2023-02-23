@@ -1,0 +1,46 @@
+﻿@model HastaHayvanListModel
+
+<div class="card author-box">
+    <h4 class="text-center lead pt-2 font-27" style="font:bold;color:red;font-size:28px">Hasta Hayvan Bilgileri</h4>
+    <div class="card-body">
+        <div class="author-box-center">
+            <getirDetayResimBuyukGonullu id="@Model.Id" style="padding-left:70px"></getirDetayResimBuyukGonullu>
+            @*<img alt="image" src="assets/img/users/user-1.png" class="rounded-circle author-box-picture">*@
+        <div class="card-body">
+            <div class="card-text" style="padding-top:20px;padding-left:115px">
+                <a class="btn btn-success" asp-action="Tamamlandi" asp-route-id="@Model.Id">Tamamlandı Olarak İşaretle</a>
+            </div>
+            <br />
+            <strong style="color:blue;font-size:18px" class="font-16">Aciliyet Durumu: </strong> <span class="badge badge-danger" style="font-size:large;background-color:red">@Model.Aciliyet.Tanim</span>
+            <br />
+            <br />
+            <strong style="color:blue;font-size:18px" class="font-16">Oluşturulma Tarihi: </strong> <small style="font-size:large;color:black" class="font-16">@Model.OlusturulmaTarih.ToLongDateString()</small>
+            <br />
+            <br />
+            <p class="card-text">
+                <strong style="color:blue;font-size:18px" class="font-16">Açıklama: </strong> <strong class="font-16" style="font-size:16px">@Model.Aciklama</strong>
+            </p>
+            <p class="card-text">
+                <strong style="color:blue;font-size:18px">Açık Adres: </strong> <strong class="font-16" style="font-size:16px">@Model.AcikAdres</strong>
+            </p>
+            <p class="card-text">
+                <strong style="color:blue;font-size:18px" class="font-16">İl: </strong> <strong class="font-16" style="font-size:16px">@Model.Il.Ad</strong>
+            </p>
+            <p class="card-text">
+                <strong style="color:blue;font-size:18px" class="font-16">Tür: </strong>
+                @if (Model.Tur == null)
+                {
+                    <strong class="font-16" style="font-size:16px">Tür Belirtilmemiş</strong>
+                }
+                else
+                {
+                    <strong class="font-16" style="font-size:16px">@Model.Tur.Ad</strong>
+                }
+            </p>
+            <p class="card-text">
+                <strong style="color:blue;font-size:18px">Sorumlu Gönüllü: </strong> <strong class="font-16" style="font-size:16px">@Model.Kullanici.KullaniciAd @Model.Kullanici.Soyad</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</div>

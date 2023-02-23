@@ -1,0 +1,148 @@
+﻿@model List<IhbarListModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+@if (TempData["ihbarOnaylandi"] != null)
+{
+    <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">
+        <div class="swal-modal" role="dialog" aria-modal="true">
+            <div class="swal-icon swal-icon--success">
+                <span class="swal-icon--success__line swal-icon--success__line--long"></span>
+                <span class="swal-icon--success__line swal-icon--success__line--tip"></span>
+
+                <div class="swal-icon--success__ring"></div>
+                <div class="swal-icon--success__hide-corners"></div>
+            </div><div class="swal-title" style="">Başarılı!</div><div class="swal-text" style="">İhbar Onaylama İşlemi Başarıyla Gerçekleşti</div><div class="swal-footer">
+                <div class="swal-button-container">
+
+                    <a class="btn btn-info" asp-action="Index" asp-controller="Ihbar">Tamam</a>
+
+                    <div class="swal-button__loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="text-center mt-2">
+                        <h4 class="font-27" style="color:red">İhbar Listesi</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <div id="table-1_wrapper" class="container-fluid dt-bootstrap4 no-footer">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-striped dataTable no-footer table-bordered" id="table-1" role="grid" aria-describedby="table-1_info">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="
+                              #
+                            : activate to sort column ascending" style="width: 61.6562px;">
+                                                        #
+                                                    </th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Resim</th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Açıklama</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="E-mail: activate to sort column ascending">Açık Adres</th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Olusturulma Tarihi</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Il: activate to sort column ascending">İl</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="TelefonNo: activate to sort column ascending">Aciliyet</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="KullaniciAd: activate to sort column ascending">Tür</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="İslem: activate to sort column ascending">İşlem</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="mb-3">
+
+                                                @foreach (var item in Model)
+                                                {
+                                                    i++;
+                                                    <tr role="row" class="odd">
+                                                        <td class="font-14">@i</td>
+                                                        <td class="font-14">
+                                                            <getirIhbarResim id="@item.Id"></getirIhbarResim>
+                                                        </td>
+                                                        <td class="font-14">@item.Aciklama</td>
+                                                        <td class="font-14">@item.AcikAdres</td>
+                                                        <td class="font-14">@item.OlusturulmaTarih.ToString("D")</td>
+                                                        <td class="font-14">@item.Il.Ad</td>
+                                                        <td>
+                                                            @if (item.Aciliyet.Tanim == "Çok Hafif" || item.Aciliyet.Tanim == "Hafif")
+                                                            {
+                                                                <span class="badge badge-warning font-15">@item.Aciliyet.Tanim</span>
+                                                            }
+                                                            else if (item.Aciliyet.Tanim == "Normal")
+                                                            {
+                                                                <span class="badge badge-warning font-15">@item.Aciliyet.Tanim</span>
+                                                            }
+                                                            else
+                                                            {
+                                                                <span class="badge badge-danger font-15">@item.Aciliyet.Tanim</span>
+                                                            }
+                                                        </td>
+                                                        <td class="font-14">@item.Tur.Ad</td>
+                                                        <td>
+                                                            <a asp-action="OnaylaIhbar" asp-route-id="@item.Id" class="btn btn-icon btn-success"><i class="fas fa-check"></i></a>
+                                                            <a class="btn btn-icon btn-danger" onclick="sil(@item.Id)">
+                                                            <i class="fas fa-times"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/lib/sweetalert.min.js"></script>
+<script src="~/lib/sweetalert.js"></script>
+
+<script>
+    function sil(id) {
+        if (id != 0 && id != "") {
+            swal({
+                title: 'Emin Misiniz?',
+                text: 'İhbar Silinecek Emin Misiniz ?',
+                icon: 'warning',
+                buttons: true,
+                dangermode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+
+                        $.ajax({
+                            url: "/Admin/Ihbar/SilIhbar/",
+                            type: "POST",
+                            data: { id: id },
+                            success: function (result) {
+                                location.reload();
+                            }
+                        });
+                    }
+                    else {
+                        location.reload();
+                    }
+                });
+        }
+    }
+
+</script>
+

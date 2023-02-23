@@ -1,0 +1,70 @@
+﻿@model IhbarAddModel
+
+<form asp-controller="Home" asp-action="IhbarEkle" method="post" enctype="multipart/form-data">
+    <div class="col-sm-12 text-left clearfix">
+        <p class="in-bl left ico-para"><img src="~/site/assets/img/logoRemoveBG.jpg" style="width:50px;height:50px" /><span style="font-size:24px">Hasta, yardıma muhtaç olan canlıya hızlı bir şekilde ulaşmamız için tüm alanları detaylıca doldurun.</span></p>
+    </div>
+    <div class="col-sm-12 m-t-2"><p class="orange text-center" style="font-size:30px">TEMEL BİLGİLER</p></div>
+
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label style="font-size:20px">Açıklama<span class="textarea-count">200</span></label>
+            <textarea class="form-control form-textarea" cols="20" id="t3" maxlength="200" asp-for="@Model.Aciklama" placeholder="İlan Açıklaması" required="required" row="100" rows="2"></textarea>
+            <span class="field-validation-valid" data-valmsg-for="İlanAciklama" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    <div class="col-sm-10">
+        <div class="form-group">
+            <label style="font-size:20px">Aciliyet Durumu</label>
+            <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                    <select asp-for="@Model.AciliyetId" class="form-control" style="font-size:15px" id="SelectedCityOption" required="required" asp-items="ViewBag.Aciliyetler">
+                        <option value="">--Se&#231;iniz--</option>
+                    </select>
+                    <span class="field-validation-valid" data-valmsg-for="Bulunduguİl" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            <label style="font-size:20px">Türü</label>
+            <select class="form-control" style="font-size:15px" id="Turu" asp-for="@Model.TurId" asp-items="ViewBag.Turler" required="required">
+                <option value="">--Se&#231;iniz--</option>
+            </select>
+            <span class="field-validation-valid" data-valmsg-for="Turu" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div class="form-group">
+            <label style="font-size:20px">İl</label>
+            <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                    <select asp-for="@Model.IlId" class="form-control" style="font-size:15px" id="SelectedCityOption" required="required" asp-items="ViewBag.Iller">
+                        <option value="">--Se&#231;iniz--</option>
+                    </select>
+                    <span class="field-validation-valid" data-valmsg-for="Bulunduguİl" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12" style="margin-top:15px">
+        <div class="form-group">
+            <label style="font-size:20px">Resim Ekleyin: </label>
+            <input type="file" id="file1" style="font-size:16px" class="form-control-file" asp-for="@Model.Fotograf" required="required">
+            <p class="help-block m-t-1" style="font-size:18px">Kabul edilebilir dosya türleri: gif, jpg, jpeg, png</p> <p class="orange" style="font-size:21px">Sadece 1 adet fotoğraf yükleyiniz.</p>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label style="font-size:20px">Açık Adres<span class="textarea-count">200</span></label>
+            <textarea class="form-control form-textarea" cols="20" id="t3" maxlength="200" asp-for="@Model.AcikAdres" placeholder="İlan Açıklaması" required="required" row="100" rows="2"></textarea>
+            <span class="field-validation-valid" data-valmsg-for="İlanAciklama" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <p class="text-center">
+            <button type="submit" id="btnInsertPati" class="btn btn-warning btn-lg btn-save m-b-2">KAYDET</button>
+        </p>
+    </div>
+</form>

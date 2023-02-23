@@ -1,0 +1,31 @@
+﻿@model TurUpdateModel
+@{
+    ViewData["Title"] = "DuzenleTur";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12">
+                <form class="w-75 mx-auto p-4 mt-5 shadow" asp-action="DuzenleTur" method="post" asp-controller="Tur">
+                    <div class="text-center">
+                        <h4 class="font-27 mt-2" style="color:red">Tür Düzenle</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="font-18">Tür Adı: </label>
+                            <span asp-validation-for="@Model.Ad" class="text-danger font-17 ml-2"></span>
+                            <input type="text" asp-for="@Model.Ad" class="form-control font-15">
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <button class="btn btn-lg btn-primary mr-1" type="submit">Kaydet</button>
+                        <a class="btn btn-lg btn-warning" asp-controller="Tur" asp-action="Index">Vazgeç</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+

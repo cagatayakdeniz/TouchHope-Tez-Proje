@@ -1,0 +1,138 @@
+﻿@model KullaniciSignUpModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="~/site/assets/img/logo.jpg">
+
+    <title>Üye Ol</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="~/Gonullu/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="~/Gonullu/css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-gradient-primary" style="background-image:url('');background-color:#ff6042!important">
+
+    <div class="container">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 mb-4" style="color:blue;font-size:x-large">Haydi Gönüllü Ol !</h1>
+                            </div>
+                            <form asp-action="SignUp" method="post" asp-controller="Auth" class="user">
+                                <div class="form-group">
+                                    <span asp-validation-for="@Model.KullaniciAd" class="text-danger"></span>
+                                    <input type="text" class="form-control form-control-user" asp-for="@Model.KullaniciAd"
+                                           placeholder="Kullanıcı Adı" required>
+                                </div>
+                                <div class="form-group">
+                                    <span asp-validation-for="@Model.Sifre" class="text-danger"></span>
+                                    <input type="password" class="form-control form-control-user" asp-for="@Model.Sifre"
+                                           placeholder="Şifre" required>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <span asp-validation-for="@Model.Ad" class="text-danger"></span>
+                                        <input type="text" class="form-control form-control-user" asp-for="@Model.Ad"
+                                               placeholder="Ad" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <span asp-validation-for="@Model.Soyad" class="text-danger"></span>
+                                        <input type="text" class="form-control form-control-user" asp-for="@Model.Soyad"
+                                               placeholder="Soyad" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                                    <input type="email" class="form-control form-control-user" asp-for="@Model.Email"
+                                           placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group">
+                                    <span asp-validation-for="@Model.TelefonNo" class="text-danger"></span>
+                                    <input type="tel" class="form-control form-control-user" asp-for="@Model.TelefonNo"
+                                           placeholder="Telefon Numarası (Ör: 534xxxxxxx (Başında 0 olmadan girin.))" required>
+                                </div>
+                                <div class="form-group">
+                                    <label style="color:black">Doğum Tarihi : </label>
+                                    <span asp-validation-for="@Model.DogumTarih" class="text-danger"></span>
+                                    <input asp-for="@Model.DogumTarih" type="date" class="form-control form-control-user"
+                                           placeholder="Doğum Tarihi" required />
+                                </div>
+                                <div class="form-group">
+                                    <label style="color:black">Cinsiyet Seçiniz :</label>
+                                    <span asp-validation-for="@Model.CinsiyetId" class="text-danger"></span>
+                                    <select asp-for="@Model.CinsiyetId" class="form-control" asp-items="ViewBag.Cinsiyetler" required>
+                                        <option hidden value="-1">Seçiniz</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label style="color:black">Yaşadığınız İli Seçiniz :</label>
+                                    <span asp-validation-for="@Model.IlId" class="text-danger"></span>
+                                    <select asp-for="@Model.IlId" class="form-control" asp-items="ViewBag.Iller" required>
+                                        <option hidden value="-1">Seçiniz</option>
+                                    </select>
+                                </div>
+                                <div class="text-danger text-align-left mb-2">
+                                    <div asp-validation-summary="ModelOnly" class="mt-3 text-danger"></div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                    Kayıt Ol
+                                </button>
+                            </form>
+                            @section JavaScript
+                            {
+                                <script src="~/lib/jqueryValidate/jquery.validate.min.js"></script>
+                                <script src="~/lib/jqueryUnob/jquery.validate.unobtrusive.min.js"></script>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="~/Gonullu/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Gonullu/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="~/Gonullu/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="~/Gonullu/js/sb-admin-2.min.js"></script>
+
+    <script>
+        //$(function () {
+        //    $("button").click(function () {
+        //        $(":empty").css("background-color", "red")
+        //    });
+        //});
+    </script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="5.0.0" />
+    <PackageReference Include="EPPlus" Version="5.5.0" />
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.0" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.6.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TouchHope.Core\TouchHope.Core.csproj" />
+    <ProjectReference Include="..\TouchHope.DataAccess\TouchHope.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

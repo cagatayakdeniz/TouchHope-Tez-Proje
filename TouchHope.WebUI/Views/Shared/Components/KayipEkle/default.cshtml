@@ -1,0 +1,68 @@
+﻿@model KayipAddModel
+
+<form asp-controller="Home" asp-action="SahiplendirEkle" method="post" enctype="multipart/form-data">
+    <div class="col-sm-12 text-left clearfix">
+        <p class="in-bl left ico-para"><img src="~/site/assets/img/logoRemoveBG.jpg" style="width:50px;height:50px" /><span class="h3">Lütfen, kedi, köpek gibi kaybolan evcil hayvanınıza ait bilgileri detaylı olarak ilgili alanlara giriniz.</span></p>
+    </div>
+    <div class="col-sm-12 m-t-2"><p class="orange text-center" style="font-size:30px">TEMEL BİLGİLER</p></div>
+
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label style="font-size:20px">İlan Açıklaması <span class="textarea-count">200</span></label>
+            <textarea class="form-control form-textarea" cols="20" id="t3" maxlength="200" asp-for="@Model.Aciklama" placeholder="İlan Açıklaması" required="required" row="100" rows="2"></textarea>
+            <span class="field-validation-valid" data-valmsg-for="İlanAciklama" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label style="font-size:20px">Türü</label>
+            <select class="form-control" style="font-size:15px" id="Turu" asp-for="@Model.TurId" asp-items="ViewBag.Turler" required="required">
+                <option value="">--Se&#231;iniz--</option>
+            </select>
+            <span class="field-validation-valid" data-valmsg-for="Turu" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label style="font-size:20px">İl</label>
+            <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                    <select asp-for="@Model.IlId" class="form-control" style="font-size:15px" id="SelectedCityOption" required="required" asp-items="ViewBag.Iller">
+                        <option value="">--Se&#231;iniz--</option>
+                    </select>
+                    <span class="field-validation-valid" data-valmsg-for="Bulunduguİl" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-sm-3">
+        <div class="form-group">
+            <label for="t3">Kayıp Tarihi</label>
+            <input class="placeholder form-control popDate" data-val="true" data-val-date="The field KayipTarihi must be a date." id="t3" name="KayipTarihi" placeholder="yyyy-aa-gg" required="required" type="text" value="" />
+            <span class="field-validation-valid" data-valmsg-for="KayipTarihi" data-valmsg-replace="true"></span>
+        </div>
+    </div>*@
+    <div class="col-sm-12" style="margin-top:15px">
+        <div class="form-group">
+            <label style="font-size:20px">Resim Ekleyin: </label>
+            <input type="file" id="file1" style="font-size:16px" class="form-control-file" asp-for="@Model.Fotograf" required="required">
+            <p class="help-block m-t-1" style="font-size:18px">Kabul edilebilir dosya türleri: gif, jpg, jpeg, png</p> <p class="orange" style="font-size:21px">Sadece 1 adet fotoğraf yükleyiniz.</p>
+        </div>
+    </div>
+
+        <p class="orange mt-5 text-center" style="font-size:26px">İLETİŞİM BİLGİLERİ</p>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label style="font-size:20px">Telefon Numaranız</label>
+            <span asp-validation-for="@Model.TelefonNo" class="text-danger"></span>
+            <input type="tel" class="form-control form-control-user" asp-for="@Model.TelefonNo"
+                   placeholder="Telefon Numarası (Ör: 111-111-1111)">
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <p class="text-center">
+            <button type="submit" id="btnInsertPati" class="btn btn-warning btn-lg btn-save m-b-2">KAYDET</button>
+        </p>
+    </div>
+</form>

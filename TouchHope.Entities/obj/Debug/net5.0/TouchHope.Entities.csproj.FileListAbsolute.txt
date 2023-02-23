@@ -1,0 +1,48 @@
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.deps.json
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csprojAssemblyReference.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfo.cs
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Documents\C#Projects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.deps.json
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\bin\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfo.cs
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Desktop\TouchHope\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.deps.json
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\bin\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\bin\Debug\net5.0\TouchHope.Entities.pdb
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csprojAssemblyReference.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.AssemblyInfo.cs
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\ref\TouchHope.Entities.dll
+C:\Users\User\Documents\NetCoreProjects\TouchHope with AOP BackEnd\TouchHope.Entities\obj\Debug\net5.0\TouchHope.Entities.pdb

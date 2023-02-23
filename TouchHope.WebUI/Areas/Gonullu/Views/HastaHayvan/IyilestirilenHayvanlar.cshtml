@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "DetayHastaHayvan";
+    Layout = "~/Areas/Gonullu/Views/Shared/_GonulluPanelLayout.cshtml";
+    int i = 0;
+}
+
+    <div class="data-table-area">
+        <div class="container" style="width:1500px">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="data-table-list">
+                        <div class="basic-tb-hd">
+                            <h2 style="color:blue;padding-left:620px;font-size:24px">İyileştirilen Hayvanlar</h2>
+                        </div>
+                        <div class="table-responsive">
+                            <table id="data-table-basic" class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Resim</th>
+                                        <th>Aciliyet</th>
+                                        <th>İl</th>
+                                        <th>Görevlendirilme Tarihi</th>
+                                        <th>Detay</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        i++;
+                                        <tr>
+                                            <td class="font-14">@i</td>
+                                            <td class="font-14">
+                                                <GetirHastaHayvanListGonullu id="@item.Id"></GetirHastaHayvanListGonullu>
+                                            </td>
+                                            <td>
+                                                @if (item.Aciliyet.Tanim == "Çok Hafif" || item.Aciliyet.Tanim == "Hafif")
+                                                {
+                                                    <span class="badge badge-warning font-15" style="background-color:yellow;font-size:15px">@item.Aciliyet.Tanim</span>
+                                                }
+                                                else if (item.Aciliyet.Tanim == "Normal")
+                                                {
+                                                    <span class="badge badge-warning font-15" style="background-color: palevioletred;font-size:15px">@item.Aciliyet.Tanim</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-danger font-15" style="background-color: red;font-size:15px">@item.Aciliyet.Tanim</span>
+                                                }
+                                            </td>
+                                            <td class="font-14">@item.Il.Ad</td>
+                                            <td class="font-14">@item.OlusturulmaTarih.ToString("D")</td>
+                                            <td>
+                                                <a class="btn btn-info" asp-controller="HastaHayvan" asp-action="IyilestirilenDetayHastaHayvan" asp-route-id="@item.Id">Detay</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                                @*<tfoot>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Position</th>
+                                        <th>Office</th>
+                                        <th>Age</th>
+                                        <th>Start date</th>
+                                        <th>Salary</th>
+                                    </tr>
+                                </tfoot>*@
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="~/GonulluUI/green-horizotal/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/GonulluUI/green-horizotal/js/data-table/jquery.dataTables.min.js"></script>
+    <script src="~/GonulluUI/green-horizotal/js/data-table/data-table-act.js"></script>
+
+

@@ -1,0 +1,114 @@
+﻿@model List<KaybolanHayvanListModel>
+@{
+    ViewData["Title"] = "KaybolanHayvan";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="text-center mt-2">
+                        <h4 class="font-27" style="color:red">Kaybolan Hayvan Listesi</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <div id="table-1_wrapper" class="container-fluid dt-bootstrap4 no-footer">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-striped dataTable no-footer" id="table-1" role="grid" aria-describedby="table-1_info">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="
+                              #
+                            : activate to sort column ascending" style="width: 61.6562px;">
+                                                        #
+                                                    </th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Telefon No</th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Resim</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="E-mail: activate to sort column ascending">Açıklama</th>
+                                                    <th class="sorting_desc font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Soyad: activate to sort column ascending" aria-sort="descending">Kaybolma Tarihi</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="Il: activate to sort column ascending">İl</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="KullaniciAd: activate to sort column ascending">Tür</th>
+                                                    <th class="sorting font-18" tabindex="0" aria-controls="table-1" rowspan="1" colspan="1" aria-label="İslem: activate to sort column ascending">İşlem</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="mb-3">
+
+                                                @foreach (var item in Model)
+                                                {
+                                                    i++;
+                                                    <tr role="row" class="odd">
+                                                        <td class="font-14">@i</td>
+                                                        <td class="font-14">@item.TelefonNo</td>
+                                                        <td class="font-14">
+                                                            <getirKaybolanResim id="@item.Id"></getirKaybolanResim>
+                                                        </td>
+                                                        <td class="font-14">@item.Aciklama</td>
+                                                        <td class="font-14">@item.OlusturulmaTarih.ToString("D")</td>
+                                                        <td class="font-14">@item.Il.Ad</td>
+                                                        <td class="font-14">
+                                                            @if (item.Tur == null)
+                                                            {
+                                                                <h6>Tür belirtilmemiş.</h6>
+                                                            }
+                                                            else
+                                                            {
+                                                                <h6>@item.Tur.Ad</h6>
+                                                            }
+                                                        </td>
+                                                        <td>
+                                                            <a class="btn btn-icon icon-left btn-danger text-center font-14" onclick="sil(@item.Id)">
+                                                            <i class="fas fa-times"></i>Sil</a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/lib/sweetalert.min.js"></script>
+<script src="~/lib/sweetalert.js"></script>
+
+<script>
+    function sil(id) {
+        if (id != 0 && id != "") {
+            swal({
+                title: 'Emin Misiniz?',
+                text: 'Kaybolan Hayvan Silinecek Emin Misiniz ?',
+                icon: 'warning',
+                buttons: true,
+                dangermode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+
+                        $.ajax({
+                            url: "/Admin/Hayvan/SilKaybolanHayvan/",
+                            type: "POST",
+                            data: { id: id },
+                            success: function (result) {
+                                location.reload();
+                            }
+                        });
+                    }
+                    else {
+                        location.reload();
+                    }
+                });
+        }
+    }
+
+</script>
+

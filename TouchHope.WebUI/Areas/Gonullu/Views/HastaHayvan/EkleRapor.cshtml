@@ -1,0 +1,49 @@
+﻿@model HayvanRaporEkleDetayModel
+@{
+    ViewData["Title"] = "EkleRapor";
+    Layout = "~/Areas/Gonullu/Views/Shared/_GonulluPanelLayout.cshtml";
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row mt-sm-4">
+            <div class="col-12 col-md-12 col-lg-4" style="padding-left:100px;box-shadow:5px 5px 5px 5px gray;background-color:beige">
+                @await Html.PartialAsync("_HastaHayvanBilgiPartialView", Model.HastaHayvan)
+            </div>
+            <div class="col-12 col-md-12 col-lg-8" style="padding-left:60px">
+                <div class="card">
+                    <div class="text-center">
+                        <h4 class="font-29 mt-2" style="color:red;font-size:35px">Rapor Yaz</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-controller="HastaHayvan" asp-action="EkleRapor" method="post">
+                            <input type="hidden" asp-for="@Model.Rapor.HastaHayvanId" />
+                            <div class="form-group">
+                                <label class="font-18" style="color:blue">Başlık </label>
+                                <span asp-validation-for="@Model.Rapor.Baslik" class="text-danger"></span>
+                                <input asp-for="@Model.Rapor.Baslik" class="form-control font-16" style="color:black">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-18" style="color:blue">Detay </label>
+                                <span asp-validation-for="@Model.Rapor.Detay" class="text-danger"></span>
+                                <textarea asp-for="@Model.Rapor.Detay" class="form-control font-16" style="color:black"></textarea>
+                            </div>
+                            <div class="text-left">
+                                <button class="btn btn-primary" type="submit">Kaydet</button>
+                                <a class="btn btn-warning" asp-action="DetayHastaHayvan" asp-route-id="@Model.HastaHayvan.Id">Raporlara Geri Dön</a>
+                            </div>
+                        </form>
+                        @section JavaScript
+                        {
+                            <script src="~/lib/jqueryValidate/jquery.validate.min.js"></script>
+                            <script src="~/lib/jqueryUnob/jquery.validate.unobtrusive.min.js"></script>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/lib/jquery-1.12.4.min.js"></script>
+

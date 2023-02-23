@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouchHope.Entities", "TouchHope.Entities\TouchHope.Entities.csproj", "{9C52E17B-135F-473F-BDF3-214DDC0A6D22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouchHope.DataAccess", "TouchHope.DataAccess\TouchHope.DataAccess.csproj", "{C7803306-8CC2-466D-8AEC-3AD583D4AA37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouchHope.Business", "TouchHope.Business\TouchHope.Business.csproj", "{B1D6C97C-4E2E-42F1-AA12-1E01B6F84B76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouchHope.WebAPI", "TouchHope.WebAPI\TouchHope.WebAPI.csproj", "{339863D2-C0FB-4FDE-8C25-A1DDD8780AA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouchHope.WebUI", "TouchHope.WebUI\TouchHope.WebUI.csproj", "{1A533B03-17F5-4EDD-A189-7732FEB2CDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchHope.Core", "TouchHope.Core\TouchHope.Core.csproj", "{0DFA9B62-9C5E-4384-BA4F-ED9B6FDE5AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C52E17B-135F-473F-BDF3-214DDC0A6D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C52E17B-135F-473F-BDF3-214DDC0A6D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C52E17B-135F-473F-BDF3-214DDC0A6D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C52E17B-135F-473F-BDF3-214DDC0A6D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7803306-8CC2-466D-8AEC-3AD583D4AA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7803306-8CC2-466D-8AEC-3AD583D4AA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7803306-8CC2-466D-8AEC-3AD583D4AA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7803306-8CC2-466D-8AEC-3AD583D4AA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D6C97C-4E2E-42F1-AA12-1E01B6F84B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D6C97C-4E2E-42F1-AA12-1E01B6F84B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D6C97C-4E2E-42F1-AA12-1E01B6F84B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D6C97C-4E2E-42F1-AA12-1E01B6F84B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339863D2-C0FB-4FDE-8C25-A1DDD8780AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339863D2-C0FB-4FDE-8C25-A1DDD8780AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339863D2-C0FB-4FDE-8C25-A1DDD8780AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339863D2-C0FB-4FDE-8C25-A1DDD8780AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A533B03-17F5-4EDD-A189-7732FEB2CDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A533B03-17F5-4EDD-A189-7732FEB2CDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A533B03-17F5-4EDD-A189-7732FEB2CDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A533B03-17F5-4EDD-A189-7732FEB2CDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFA9B62-9C5E-4384-BA4F-ED9B6FDE5AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFA9B62-9C5E-4384-BA4F-ED9B6FDE5AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFA9B62-9C5E-4384-BA4F-ED9B6FDE5AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFA9B62-9C5E-4384-BA4F-ED9B6FDE5AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7A8884-F44F-4C57-9A39-8AAF0CA721EE}
+	EndGlobalSection
+EndGlobal

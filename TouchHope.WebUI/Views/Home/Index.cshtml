@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="~/site/assets/img/logo.jpg">
+    <title>Touch Hope</title>
+    <meta charset="UTF-8">
+
+    <link href="~/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet" />
+
+    <link href="~/AnaSayfa/lib/bootstrap/bootstrape1a0.css" rel="stylesheet" />
+    <link href="~/AnaSayfa/lib/css/swiper.mine1a0.css" rel="stylesheet" media="all" />
+    <link href="~/AnaSayfa/lib/css/jquery.fancyboxe1a0.css" rel="stylesheet" media="all" />
+    <link href="~/AnaSayfa/lib/css/maine1a0.css" rel="stylesheet" media="all" />
+    <link href="~/AnaSayfa/lib/css/font-awesome.mine1a0.css" rel="stylesheet" />
+    <link href="~/AnaSayfa/lib/css/jquery.datepicke1a0.css" rel="stylesheet" />
+
+    <script src="~/AnaSayfa/lib/jquery-2.2.0.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/swiper.jquery.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/bootstrap.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.fancybox.packe1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.lazyload.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.plugin.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.datepick.mine1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.datepick-tre1a0.js"></script>
+    <script src="~/AnaSayfa/lib/genele1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery-maske1a0.js"></script>
+    <script src="~/AnaSayfa/lib/jquery.cookiee1a0.js"></script>
+
+    @*// #Çağatay Akdeniz //*@
+    <script src="~/AnaSayfa/lib/anasayfae1a0.js"></script>
+
+</head>
+
+@if (TempData["kayipEklendi"] != null)
+{
+    <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">
+        <div class="swal-modal" role="dialog" aria-modal="true">
+            <div class="swal-icon swal-icon--success">
+                <span class="swal-icon--success__line swal-icon--success__line--long"></span>
+                <span class="swal-icon--success__line swal-icon--success__line--tip"></span>
+
+                <div class="swal-icon--success__ring"></div>
+                <div class="swal-icon--success__hide-corners"></div>
+            </div><div class="swal-title" style="">Başarılı!</div><div class="swal-text" style="">Kayıp Ekleme İşlemi Başarıyla Gerçekleşti</div><div class="swal-footer">
+                <div class="swal-button-container" style="padding-right:183px">
+
+                    <a class="btn btn-info" asp-action="Index" asp-controller="Home">Tamam</a>
+
+                    <div class="swal-button__loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@if (TempData["sahiplendirEklendi"] != null)
+{
+    <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">
+        <div class="swal-modal" role="dialog" aria-modal="true">
+            <div class="swal-icon swal-icon--success">
+                <span class="swal-icon--success__line swal-icon--success__line--long"></span>
+                <span class="swal-icon--success__line swal-icon--success__line--tip"></span>
+
+                <div class="swal-icon--success__ring"></div>
+                <div class="swal-icon--success__hide-corners"></div>
+            </div><div class="swal-title" style="">Başarılı!</div><div class="swal-text" style="">Sahiplendirme Ekleme İşlemi Başarıyla Gerçekleşti</div><div class="swal-footer">
+                <div class="swal-button-container" style="padding-right:183px">
+
+                    <a class="btn btn-info" asp-action="Index" asp-controller="Home">Tamam</a>
+
+                    <div class="swal-button__loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@if (TempData["ihbarEklendi"] != null)
+{
+    <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">
+        <div class="swal-modal" role="dialog" aria-modal="true">
+            <div class="swal-icon swal-icon--success">
+                <span class="swal-icon--success__line swal-icon--success__line--long"></span>
+                <span class="swal-icon--success__line swal-icon--success__line--tip"></span>
+
+                <div class="swal-icon--success__ring"></div>
+                <div class="swal-icon--success__hide-corners"></div>
+            </div><div class="swal-title" style="">Başarılı!</div><div class="swal-text" style="">İhbar Ekleme İşlemi Başarıyla Gerçekleşti</div><div class="swal-footer">
+                <div class="swal-button-container" style="padding-right:183px">
+
+                    <a class="btn btn-info" asp-action="Index" asp-controller="Home">Tamam</a>
+
+                    <div class="swal-button__loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<body id="box-top">
+
+    <div class="navbar navbar-inverse navbar-xs visible-xs">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" asp-action="Index" style="background-image:url('')">
+                    <img src="~/site/assets/img/logo.jpg" width="50" height="30" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="index.html#lost-list" class="go-scroll" style="padding-right:1em;padding-left:1em" data-target="lost-list"><i class="fas fa-paw"></i>&nbsp;KAYIPLAR</a></li>
+                    <li><a href="index.html#adoption" class="go-scroll" style="padding-right:1em;padding-left:1em" data-target="adoption"><i class="fas fa-dog"></i>&nbsp;DOST EDİNİN</a></li>
+                    <li><a href="index.html#lost-add" class="go-scroll gdprHide" style="padding-right:1em;padding-left:1em" data-target="lost-add"><i class="fas fa-exclamation-circle"></i>&nbsp;KAYIP VAR</a></li>
+                    <li><a href="index.html#lost-add-found" class="go-scroll gdprHide" style="padding-right:1em;padding-left:1em" data-target="lost-add-found"><i class="fas fa-feather"></i>&nbsp;SAHİPLENDİR</a></li>
+                    <li><a href="index.html#adoptionForm" class="go-scroll gdprHide" style="padding-right:1em;padding-left:1em" data-target="adoptionForm"><i class="fas fa-exclamation"></i>&nbsp;HASTA HAYVAN VAR</a></li>
+                    <li><a asp-action="SignIn" asp-controller="Auth" class="navbar-right" style="padding-left:5em;padding-right:5em"><i class="fas fa-sign-in-alt"></i>&nbsp;GİRİŞ YAP</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="container-fluid  primary-menu hidden-xs">
+        <div class="white-line"></div>
+        <div class="white-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="primary-brand">
+                    <a asp-action="Index" class="menu-brand" style="background-image:url('');padding-left:40px"><img src="~/site/assets/img/logoRemoveBG.jpg" width="160" height="80" /></a>
+                </div>
+                <div class="primary-menu-link">
+
+                    <a href="index.html#lost-list" class="go-scroll" style="padding-right:2em;padding-left:2em" data-target="lost-list"><i class="fas fa-paw"></i>&nbsp;KAYIPLAR</a>
+                    <a href="index.html#adoption" class="go-scroll" style="padding-right:2em;padding-left:1em" data-target="adoption"><i class="fas fa-dog"></i>&nbsp;DOST EDİNİN</a>
+                    <a href="index.html#lost-add" class="go-scroll" style="padding-right:1em;padding-left:1em" gdprHide" data-target="lost-add"><i class="fas fa-exclamation-circle"></i>&nbsp;KAYIP VAR</a>
+                    <a href="index.html#lost-add-found" class="go-scroll gdprHide" style="padding-right:2em;padding-left:2em" data-target="lost-add-found"><i class="fas fa-feather"></i>&nbsp;SAHİPLENDİR</a>
+                    <a href="index.html#adoptionForm" class="go-scroll gdprHide" style="padding-right:2em;padding-left:2em" data-target="adoptionForm"><i class="fas fa-exclamation"></i>&nbsp;HASTA HAYVAN VAR</a>
+                    <a asp-action="SignIn" asp-controller="Auth" class="navbar-right"><i class="fas fa-sign-in-alt"></i>&nbsp;GİRİŞ YAP</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid jumbo-cover-back">
+        <div class="row">
+            <div class="container text-center">
+                <div class="col-sm-7 roboto">
+                    <div class="row">
+                        <h1 class="head-slogan">Kaybolan, Hasta, Sahiplendirilecek <br>Dostlarımıza<br> Yardım <br>Edelim <br> <strong></strong></h1>
+                    </div>
+                </div>
+                @*<div class="col-sm-5"><div class="profile-cover"></div></div>*@
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid m-y-25 robo mugeText">
+        <div class="col-sm-12 hide-over-md">
+            <div class="muge-cover-outer">
+                <div class="muge-cover">
+                    <div class="muge-text">
+                        <p>
+                            Can dostlarımız yaşamımızın tadı, tuzu, neşesi... Ailemizin birer ferdi... Kaybolduklarında onları ailelerine kavuşturmanın mutluluğunu,
+                            yardıma muhtaç olduklarında en üst seviye sağlık durumuna kavuşturmanın huzurunu hep birlikte yaşayalım... Gönüllü olmak için sağ üst
+                            menüden Sistem Panel Girişinden işleminizi gerçekleştirebilirsiniz.
+                        </p>
+                        <strong>Touch Hope Sistem Mesajı</strong>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="lost-cats-title-area" id="lost-list">
+                    <h2 class="lost-cats-title">
+                        <strong>KAYIP</strong> CAN DOSTLARIMIZ
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid lost-cats-items">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="lost-cats-list">
+                                @await Component.InvokeAsync("KayipList")
+                            </div>
+                        </div>
+                        <div class="col-xs-12 m-t-1 text-align-center">
+                            <a asp-action="KayipListesi" class="btn btn-link btn-more warn st ">TÜMÜ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adoption" class="lost-cats lost-cats-2">
+        <div class="container-fluid" style="margin-top:100px">
+            <div class="row">
+                <div class="lost-cats-title-area lost-cats-title-area-3" id="lost-list">
+                    <h2 class="lost-cats-title">
+                        DOST EDİNİN
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid lost-cats-items">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="lost-cats-list">
+                                @await Component.InvokeAsync("SahiplendirilecekList")
+                            </div>
+                        </div>
+                        <div class="col-xs-12 m-t-1 text-align-center">
+                            <a asp-action="SahiplendirilecekListesi" class="btn btn-link btn-more warn st ">TÜMÜ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid gdprRemove">
+        <div class="row">
+            <div class="lost-cats-title-area lost-cats-title-area-4" id="lost-add">
+                <h2 class="lost-cats-title">
+                    KAYIP VAR
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <form class="container-fluid card-form text-center roboto box-form" enctype="multipart/form-data" asp-action="KayipEkle" method="post">
+
+        <div class="row">
+            <div class="container text-left" id="form">
+                @await Component.InvokeAsync("KayipEkle")
+            </div>
+        </div>
+    </form>
+
+    <div class="container-fluid gdprRemove">
+        <div class="row">
+            <div class="lost-cats-title-area lost-cats-title-area-5" id="lost-add-found">
+                <h2 class="lost-cats-title">
+                    SAHİPLENDİR
+                </h2>
+                <div class="lost-form-dog">
+                    <img src="../i.tmgrup.com.tr/patibuldular/site/v1/i/pati-kopek.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="container-fluid card-form text-center roboto box-form" enctype="multipart/form-data" id="box-form-found" asp-action="SahiplendirEkle" method="post">
+        <div class="row">
+            <div class="container text-left" id="form">
+                @await Component.InvokeAsync("SahiplendirEkle")
+            </div>
+        </div>
+    </form>
+
+
+    <div class="container-fluid gdprRemove">
+        <div class="row">
+            <div class="lost-cats-title-area lost-cats-title-area-3" id="adoptionForm">
+                <h2 class="lost-cats-title">
+                    İHBARDA BULUN
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid card-form text-center roboto box-form gdprRemove" id="box-form">
+
+        <form class="container-fluid card-form text-center roboto box-form" enctype="multipart/form-data" id="box-form-found" asp-action="IhbarEkle" method="post">
+            <div class="row">
+                <div class="container text-left" id="form">
+                    @await Component.InvokeAsync("IhbarEkle")
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/lib/sweetalert.min.js"></script>
+    <script src="~/lib/sweetalert.js"></script>
+    <span class="gotop" id="gotop"><i class="fa fa-angle-up fa-3x"></i></span>
+
+
+    // # Cagatay Akdeniz //
+</body>
+
